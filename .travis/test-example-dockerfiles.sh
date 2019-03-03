@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-
+apt-get update
 image="$1"
 
 cd .examples/dockerfiles
